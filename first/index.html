@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <title>No Tab</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo-block">
+        <picture class="logo">
+          <source srcset="./images/logo-webp.webp" type="image/webp" />
+          <img src="./images/logo-png.png" alt="logo" />
+        </picture>
+        <picture class="logo-text">
+          <source srcset="./images/logo-text.webp" type="image/webp" />
+          <img src="./images/logo-text-png.png" alt="logo-text" />
+        </picture>
+      </div>
+      <div class="login">
+        <svg
+          class="login__image"
+          width="26"
+          height="25"
+          viewBox="0 0 26 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.0018 0C5.82117 0 0 5.59437 0 12.4952C0 19.396 5.82117 24.9904 13.0018 24.9904C13.3935 24.9904 13.7837 24.9735 14.172 24.94C14.533 24.9088 14.8909 24.8613 15.246 24.8017L15.3825 24.7785C21.9843 23.5944 26.5618 17.7733 25.9443 11.3463C25.3268 4.91937 19.7176 0.00203372 13.0018 0V0ZM11.9572 24.1133H11.9265C11.5894 24.0846 11.2549 24.0413 10.9233 23.9857C10.9042 23.9825 10.8852 23.9805 10.8665 23.977C10.5423 23.9213 10.2215 23.8521 9.9039 23.7714L9.82708 23.7525C9.51727 23.6717 9.21085 23.578 8.90887 23.4739C8.87755 23.4631 8.84602 23.4535 8.8147 23.4423C8.51865 23.3378 8.22789 23.2207 7.94157 23.094C7.90602 23.0787 7.87047 23.0641 7.83491 23.0478C7.5541 22.9229 7.27878 22.7822 7.00876 22.6341C6.97067 22.6134 6.93216 22.5926 6.89406 22.5721C6.62827 22.423 6.36862 22.2632 6.11383 22.0944C6.07532 22.0685 6.03638 22.0435 5.99808 22.0177C5.74773 21.8471 5.50374 21.6659 5.26609 21.4763L5.2007 21.4214V17.9098C5.20388 15.3806 7.33634 13.3313 9.96802 13.3282H16.0355C18.6672 13.3313 20.7996 15.3806 20.8028 17.9098V21.4218L20.7453 21.468C20.503 21.6624 20.2543 21.8463 19.9989 22.0199C19.965 22.0427 19.9307 22.0645 19.8971 22.0869C19.6393 22.2589 19.3752 22.4208 19.1048 22.5729C19.0709 22.5918 19.0362 22.6097 19.0026 22.6284C18.7285 22.7783 18.4498 22.9199 18.1656 23.0474C18.1331 23.062 18.1003 23.0756 18.0672 23.0891C17.7786 23.217 17.4853 23.3347 17.1871 23.4401C17.1575 23.4507 17.1277 23.4598 17.1004 23.4698C16.7969 23.5743 16.4892 23.6689 16.1777 23.75L16.103 23.7679C15.7849 23.8487 15.4639 23.9182 15.1393 23.9741C15.1207 23.9774 15.1021 23.9796 15.0834 23.9825C14.7514 24.0382 14.4164 24.0815 14.0791 24.1104H14.0484C13.7018 24.1391 13.3549 24.1545 13.0039 24.1545C12.6528 24.1545 12.3032 24.1419 11.9572 24.1133ZM21.6696 20.6496V17.9098C21.666 14.9208 19.1456 12.4987 16.0355 12.4952H9.96802C6.85788 12.4987 4.33752 14.9208 4.33392 17.9098V20.6492C-0.333932 16.0707 -0.281874 8.72996 4.45031 4.21286C9.18249 -0.304042 16.821 -0.304042 21.5532 4.21286C26.2854 8.72996 26.3375 16.0707 21.6696 20.6492V20.6496Z"
+            fill="white"
+          />
+          <path
+            d="M13.0016 3.33203C10.608 3.33203 8.66772 5.19675 8.66772 7.4971C8.66772 9.79744 10.608 11.6622 13.0016 11.6622C15.3952 11.6622 17.3356 9.79744 17.3356 7.4971C17.333 5.19777 15.3942 3.33447 13.0016 3.33203ZM13.0016 10.8291C11.0867 10.8291 9.53451 9.33741 9.53451 7.4971C9.53451 5.65678 11.0867 4.16504 13.0016 4.16504C14.9166 4.16504 16.4688 5.65678 16.4688 7.4971C16.4667 9.3364 14.9155 10.8271 13.0016 10.8291Z"
+            fill="white"
+          />
+        </svg>
+        <a href="#" class="login__text"> Login </a>
+      </div>
+    </header>
+    <picture class="purple-background">
+      <source srcset="./images/purple-bg.webp" type="image/webp" />
+      <img src="./images/purple-bg-png.png" alt="purple-background" />
+    </picture>
+    <main class="content">
+      <!-- Экран до карточек -->
+      <div class="first-screen">
+        <div class="content__left-block">
+          <h1 class="content__main-title">
+            A platform <br />
+            that works smarter
+          </h1>
+          <div class="content__with_figures">
+            <div class="figures">
+              <div class="ellipse"></div>
+              <div class="line"></div>
+            </div>
+            <p class="content_with_figures_text">
+              NoTab allows bars & nightclubs<br />
+              to manage, understand, and grow<br />
+              their business from a single dashboard
+            </p>
+          </div>
+        </div>
+        <div class="content__right-block">
+          <picture class="iphone">
+            <source srcset="./images/iphone.webp" type="image/webp" />
+            <img src="./images/iphone.png" alt="iphone" />
+          </picture>
+
+          <picture class="iphone_mobile">
+            <source
+              srcset="./images/first-screen-mobile__iphone.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/first-screen-mobile__iphone.png"
+              alt="first-screen-mobile__iphone"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="content__download">
+        <h2 class="content__download-title">Download our app</h2>
+
+        <div class="content__download-stores">
+          <picture class="first-screen icon">
+            <source
+              srcset="./images/app-store_mobile.webp"
+              type="image/webp"
+              media="(max-width: 550px)"
+            />
+            <img
+              src="./images/app-store.png"
+              srcset="./images/app-store.png"
+              alt="app-store icon"
+            />
+          </picture>
+
+          <picture class="first-screen icon">
+            <source
+              srcset="./images/play-market_mobile.webp"
+              type="image/webp"
+              media="(max-width: 550px)"
+            />
+            <img
+              src="./images/play-market.png"
+              srcset="./images/play-market.png"
+              alt="play-market icon"
+            />
+          </picture>
+        </div>
+      </div>
+
+      <!-- Экран с карточками -->
+      <div class="second-screen">
+        <div class="second-screen__cards">
+          <div class="card">
+            <h3 class="card-title">
+              Would like to become a member, please contact us
+            </h3>
+            <a class="card-link" href="#">support@notab.com</a>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Already a partner?</h3>
+            <a class="card-link" href="#">Login</a>
+          </div>
+        </div>
+        <div class="second-screen__our-mission-block">
+          <picture class="iphone-left">
+            <source srcset="./images/iphone-left.webp" type="image/webp" />
+            <img src="./images/iphone-left.png" alt="iphone-left image" />
+          </picture>
+
+          <div class="text-block">
+            <h1 class="text-block-title">Our mission and vision</h1>
+            <p class="text-block-subtitle">
+              While technology is our sweet spot, we’ve developed our vision
+              alongside our customers to ensure your everyday problems are
+              solved through simplistic tools. And as your business grows, we’ll
+              grow right alongside with you.
+            </p>
+            <div class="text-ellipse"></div>
+          </div>
+          <picture class="iphone-left-mobile">
+            <source
+              srcset="./images/iphone-left__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/iphone-left__mobile.png"
+              alt="iphone-left__mobile"
+            />
+          </picture>
+        </div>
+      </div>
+    </main>
+    <!-- Экран со сканером и графиками-->
+    <div class="third-screen-wrapper">
+      <div class="third-screen">
+        <div class="third-screen__image-block">
+          <picture>
+            <source
+              srcset="
+                ./images/auth-incomplete.webp,
+                ./images/auth-incomplete__mobile.webp
+              "
+              type="image/webp"
+              media="(min-width: 550px)"
+            />
+            <img
+              class="auth-incomplete"
+              src="./images/auth-incomplete.png"
+              srcset="./images/auth-incomplete__mobile.png"
+              alt="auth-incomplete"
+            />
+          </picture>
+
+          <picture>
+            <source
+              srcset="
+                ./images/auth-complete.webp,
+                ./images/auth-complete__mobile.webp
+              "
+              type="image/webp"
+              media="(min-width: 550px)"
+            />
+            <img
+              class="auth-complete"
+              src="./images/auth-complete.png"
+              srcset="./images/auth-complete__mobile.png"
+              alt="auth-complete"
+            />
+          </picture>
+          <div class="third-screen__text-block">
+            <h3 class="text-block-title">ID Scanner</h3>
+            <p class="text-block-subtitle">
+              Scan, verify, and collect data on each person that walks through
+              your door to humanize your data. You also get a digital 86 list as
+              well as a citywide ban list to keep your venue safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="third-screen__graphics">
+        <div class="third-screen__graphics_text-block">
+          <h3 class="text-block-title">BI Tool Integration</h3>
+          <p class="text-block-subtitle">
+            We use Business Intelligence Tool that allows you to be updated what
+            is happening in your business just by one click. Track revenue and
+            profit by one click.
+          </p>
+        </div>
+        <div class="third-screen__graphics_charts">
+          <picture class="indicator-with-axis">
+            <source
+              srcset="./images/indicator-with-axis.webp"
+              type="image/webp"
+            />
+            <img
+              class="indicator"
+              src="./images/indicator-with-axis.png"
+              alt="indicator-with-axis"
+            />
+          </picture>
+
+          <picture class="indicator-like-pacman">
+            <source
+              srcset="./images/indicator-like-pacman.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/indicator-like-pacman.png"
+              alt="indicator-like-pacman"
+            />
+          </picture>
+
+          <picture class="indicator-with-bulb">
+            <source
+              srcset="./images/indicator-with-bulb.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/indicator-with-bulb.png"
+              alt="indicator-with-bulb"
+            />
+          </picture>
+
+          <picture class="indicator-like-mountain">
+            <source
+              srcset="./images/indicator-like-mountain.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/indicator-like-mountain.png"
+              alt="indicator-like-mountain"
+            />
+          </picture>
+
+          <picture class="indicator-waves">
+            <source srcset="./images/indicator-waves.webp" type="image/webp" />
+            <img src="./images/indicator-waves.png" alt="indicator-waves" />
+          </picture>
+
+          <picture class="chart-like-volume">
+            <source
+              srcset="./images/chart-like-volume.webp"
+              type="image/webp"
+            />
+            <img src="./images/chart-like-volume.png" alt="chart-like-volume" />
+          </picture>
+
+          <picture class="loading-indicators">
+            <source
+              srcset="./images/loading-indicators.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/loading-indicators.png"
+              alt="loading-indicators"
+            />
+          </picture>
+        </div>
+        <div class="third-screen__graphics_charts_mobile">
+          <picture class="indicator-with-axis__mobile">
+            <source
+              srcset="./images/indicator-with-axis__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/indicator-with-axis__mobile.png"
+              alt="indicator-with-axis__mobile"
+            />
+          </picture>
+
+          <picture class="indicator-like-pacman__mobile">
+            <source
+              srcset="./images/indicator-like-pacman__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/indicator-like-pacman__mobile.png"
+              alt="indicator-like-pacman__mobile"
+            />
+          </picture>
+
+          <picture class="indicator-with-bulb__mobile">
+            <source
+              srcset="./images/indicator-with-bulb__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/indicator-with-bulb__mobile.png"
+              alt="indicator-with-bulb__mobile"
+            />
+          </picture>
+
+          <picture class="indicator-waves__mobile">
+            <source
+              srcset="./images/indicator-waves__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              class="auth-complete"
+              src="./images/indicator-waves__mobile.png"
+              alt="indicator-waves__mobile"
+            />
+          </picture>
+
+          <picture class="chart-like-volume__mobile">
+            <source
+              srcset="./images/chart-like-volume__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/chart-like-volume_mobile.png"
+              alt="chart-like-volume__mobile"
+            />
+          </picture>
+
+          <picture class="loading-indicators__mobile">
+            <source
+              srcset="./images/loading-indicators__mobile.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/loading-indicators__mobile.png"
+              alt="loading-indicators__mobile"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+    <!-- Экран с qr кодом -->
+    <div class="fourth-screen">
+      <div class="left-block">
+        <div class="fourth-screen__text-block">
+          <h3 class="text-block-title">QR code</h3>
+          <p class="text-block-subtitle">
+            No more conflict situations due to wrong order. The guest selects
+            the positions, and after that an individual QR code of his order is
+            generated
+          </p>
+
+          <div class="content__download-stores">
+            <picture class="first-screen icon">
+              <source
+                srcset="./images/app-store_mobile.webp"
+                type="image/webp"
+                media="(max-width: 550px)"
+              />
+              <img
+                src="./images/app-store.png"
+                srcset="./images/app-store.png"
+                alt="app-store icon"
+              />
+            </picture>
+
+            <picture class="first-screen icon">
+              <source
+                srcset="./images/play-market_mobile.webp"
+                type="image/webp"
+                media="(max-width: 550px)"
+              />
+              <img
+                src="./images/play-market.png"
+                srcset="./images/play-market.png"
+                alt="play-market icon"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="right-block">
+        <div class="right-block__phones">
+          <picture class="iphone-order1">
+            <source
+              srcset="
+                ./images/iphone-order1.webp,
+                ./images/iphone-order1__mobile.webp
+              "
+              type="image/webp"
+              media="(min-width: 550px)"
+            />
+            <img
+              class="auth-complete"
+              src="./images/iphone-order1.png"
+              srcset="/images/iphone-order1__mobile.png"
+              alt="iphone-order1"
+            />
+          </picture>
+
+          <picture class="iphone-order2">
+            <source
+              srcset="
+                ./images/iphone-order2.webp,
+                ./images/iphone-order2__mobile.webp
+              "
+              type="image/webp"
+              media="(min-width: 550px)"
+            />
+            <img
+              class="auth-complete"
+              src="./images/iphone-order2.png"
+              srcset="./images/iphone-order2__mobile.png"
+              alt="iphone-order2"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="generate-qr-wrapper">
+      <div class="generate-qr"></div>
+      <div class="iphone-qr">
+        <picture class="iphone-qr-image">
+          <source
+            srcset="./images/iphone-qr__mobile.webp"
+            type="image/webp"
+            media="(max-width: 550px)"
+          />
+          <img
+            src="./images/iphone-qr.png"
+            srcset="./images/iphone-qr.png"
+            alt="iphone-qr"
+          />
+        </picture>
+
+        <div class="arrow-text">
+          <svg
+            class="arrow-desktop"
+            width="81"
+            height="70"
+            viewBox="0 0 81 70"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.632181 4.08355C0.454104 3.87249 0.480838 3.55704 0.691895 3.37897L4.1312 0.477039C4.34225 0.298961 4.6577 0.325694 4.83578 0.536747C5.01385 0.7478 4.98712 1.06325 4.77607 1.24133L1.71891 3.82082L4.2984 6.87798C4.47648 7.08903 4.44974 7.40448 4.23869 7.58256C4.02764 7.76064 3.71219 7.73391 3.53411 7.52285L0.632181 4.08355ZM79.5196 69.3236C78.0304 58.6552 73.064 43.633 61.1464 30.6611C49.2381 17.6993 30.3581 6.74959 0.972106 4.25932L1.05655 3.2629C30.6708 5.77251 49.7909 16.8229 61.8828 29.9845C73.9653 43.136 78.999 58.3606 80.51 69.1854L79.5196 69.3236Z"
+              fill="white"
+            />
+          </svg>
+
+          <svg
+            class="arrow-mobile"
+            width="34"
+            height="102"
+            viewBox="0 0 34 102"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.0166877 0.97009C0.00251067 0.694311 0.214582 0.459258 0.490362 0.445085L4.98443 0.21406C5.2602 0.19988 5.49526 0.411951 5.50944 0.68773C5.52361 0.963509 5.31154 1.19856 5.03576 1.21274L1.04104 1.41809L1.24639 5.41282C1.26057 5.6886 1.0485 5.92365 0.772722 5.93783C0.496942 5.95201 0.261887 5.73993 0.247709 5.46416L0.0166877 0.97009ZM23.3855 100.636C28.6516 91.2397 33.7816 76.2725 32.1358 58.7342C30.4913 41.2097 22.0777 21.0711 0.181092 1.31566L0.850966 0.573186C22.9177 20.4821 31.4616 40.8461 33.1314 58.6408C34.8 76.4219 29.6012 91.5908 24.2578 101.125L23.3855 100.636Z"
+              fill="white"
+            />
+          </svg>
+          <p class="text">Scan QR-code</p>
+        </div>
+      </div>
+
+      <div class="background__text">
+        <h1 class="generate-qr_text">notab</h1>
+        <h1 class="generate-qr_text">notab</h1>
+        <h1 class="generate-qr_text">notab</h1>
+        <h1 class="generate-qr_text">notab</h1>
+      </div>
+
+      <div class="bottom-text">
+        <h3 class="text-block-title">Generate your QR-code</h3>
+        <p class="text-block-subtitle">
+          The guest QR code is scanned by the staff and automatically sent
+        </p>
+      </div>
+    </div>
+    <!-- Экран с телефоном-лентой -->
+    <div class="fifth-screen">
+      <div class="text-block">
+        <h1 class="text-block-title">Easier ordering. Happier guests.</h1>
+        <p class="text-block-subtitle">
+          NoTab makes it simple for patrons to easily
+        </p>
+      </div>
+
+      <div class="picture-block">
+        <picture class="iphone-tape">
+          <source
+            srcset="./images/iphone-like-tape__mobile.webp"
+            type="image/webp"
+            media="(max-width: 950px)"
+          />
+          <img
+            src="./images/iphone-like-tape.png"
+            srcset="./images/iphone-like-tape.png"
+            alt="iphone-like-tape"
+          />
+        </picture>
+
+        <div class="benefits-block">
+          <span class="iphone-tape_benefits">
+            No more lost or <br />
+            forgotten credit cards
+          </span>
+          <span class="iphone-tape_benefits">
+            No more lost or <br />
+            forgotten credit cards
+          </span>
+          <span class="iphone-tape_benefits"> Skip the line </span>
+          <span class="iphone-tape_benefits">
+            No more split <br />
+            your tab
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Экран с кучей надписей на фоне -->
+    <div class="sixth-screen">
+      <div class="iphone-block">
+        <div class="image-wrapper">
+          <picture>
+            <source srcset="./images/iphone-empty.webp" type="image/webp" />
+            <img src="./images/iphone-empty.png" alt="iphone-empty" />
+          </picture>
+          <picture class="iphone-content">
+            <source srcset="./images/iphone-content.webp" type="image/webp" />
+            <img src="./images/iphone-content.png" alt="iphone-content" />
+          </picture>
+        </div>
+      </div>
+    </div>
+
+    <!-- Экран с формой -->
+    <div class="seventh-screen">
+      <div class="text-block">
+        <h1 class="text-block-title">Get In Touch</h1>
+        <p class="text-block-subtitle">
+          Have questions about Noble or just want to say hello? Drop us a line
+          and a member of our team will getback to you shortly.
+        </p>
+
+        <div class="ellipse-title"></div>
+      </div>
+
+      <div class="form-wrapper">
+        <form action="#" class="main-form">
+          <input
+            class="main-form__input"
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+          <input
+            class="main-form__input"
+            type="text"
+            name="surname"
+            placeholder="Venue Name"
+          />
+          <div class="city">
+            <input
+              class="main-form__input"
+              type="text"
+              name="venue_city"
+              placeholder="Venue City"
+            />
+            <input
+              class="main-form__input"
+              type="text"
+              name="city"
+              placeholder="State City"
+            />
+          </div>
+          <input
+            class="main-form__input"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+          <input
+            class="main-form__input"
+            type="text"
+            name="subject"
+            placeholder="Subject"
+          />
+          <textarea
+            class="main-form__textarea"
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+
+          <button class="main-form__button">Send</button>
+        </form>
+      </div>
+
+      <div class="ellipse-near-form"></div>
+
+      <div class="footer-wrapper">
+        <div class="download-block">
+          <h4 class="app-title">Download our app</h4>
+          <div class="content__download-stores">
+            <picture class="first-screen icon">
+              <source
+                srcset="./images/app-store_mobile.webp"
+                type="image/webp"
+                media="(max-width: 550px)"
+              />
+              <img
+                src="./images/app-store.png"
+                srcset="./images/app-store.png"
+                alt="app-store icon"
+              />
+            </picture>
+
+            <picture class="first-screen icon">
+              <source
+                srcset="
+                  ./images/play-market.webp,
+                  ./images/play-market_mobile.webp
+                "
+                type="image/webp"
+                media="(min-width:550px)"
+              />
+              <img
+                src="./images/play-market.png"
+                srcset="./images/play-market_mobile.png"
+                alt="play-market icon"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <footer class="main-footer">
+          <div class="left-block">
+            <svg
+              class="logo-footer"
+              width="82"
+              height="17"
+              viewBox="0 0 82 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.75697 0.355225L9.12656 8.55315V0.355225H13.3678V15.8224H9.61085L4.24125 7.60205V15.8224H0V0.355225H3.75697Z"
+                fill="white"
+              />
+              <path
+                d="M33.0796 8.08809C33.0796 12.5515 29.2353 16.1537 24.7719 16.1537C20.3085 16.1537 16.4417 12.549 16.4417 8.08809C16.4417 3.62716 20.3085 0 24.7719 0C29.2353 0 33.0796 3.62466 33.0796 8.08809ZM29.0156 8.08809C29.0156 5.74654 27.1159 3.84684 24.7744 3.84684C22.4328 3.84684 20.5306 5.74404 20.5306 8.08809C20.5306 10.4296 22.4303 12.3094 24.7719 12.3094C27.1134 12.3094 29.0156 10.4296 29.0156 8.08809Z"
+                fill="white"
+              />
+              <path
+                d="M48.5481 3.93246H44.0172V15.8199H39.796V3.93246H35.2651V0.355225H48.5456V3.93246H48.5481Z"
+                fill="white"
+              />
+              <path
+                d="M59.7974 13.0815H54.8921L53.941 15.8224H49.2355L55.0694 0.355225H59.6002L65.4566 15.8224H60.751L59.7974 13.0815ZM58.5368 9.50176L57.3435 6.09927L56.1503 9.50176H58.5368Z"
+                fill="white"
+              />
+              <path
+                d="M81.0106 11.2267C81.0106 13.9227 79.2207 15.8224 75.1342 15.8224H68.5714V0.355225H74.8896C78.2272 0.355225 80.0146 2.05772 80.0146 4.61895C80.0146 5.50264 79.6601 6.78326 78.5792 7.57959C80.369 8.28605 81.0106 9.8113 81.0106 11.2267ZM72.7902 3.93246V6.05433H74.9121C75.8632 6.05433 76.305 5.59002 76.305 4.99339C76.305 4.39677 75.8632 3.93246 74.9121 3.93246H72.7902ZM77.2112 10.9371C77.2112 10.2082 76.6146 9.63406 75.5312 9.63406H72.7902V12.2402H75.5312C76.6146 12.2427 77.2112 11.6461 77.2112 10.9371Z"
+                fill="white"
+              />
+            </svg>
+            <div class="contact-us">
+              <span class="title">Contact us:</span>
+              <a href="mailto:support@notab.com" class="footer-link"
+                >support@notab.com</a
+              >
+            </div>
+            <span class="copyright">© 2020 - NoTab®</span>
+          </div>
+          <div class="right-block">
+            <a href="#" class="footer-link">Terms to use</a>
+            <a href="#" class="footer-link">Privacy policy</a>
+          </div>
+          <div class="footer-ellipse"></div>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
